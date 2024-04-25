@@ -147,6 +147,50 @@
     </footer>
 
     <script src="js/produk.js"></script>
-    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+      var data_kopi = [
+        {
+          nama: "Capuchino",
+          foto: "images/produk/product_capuchino.jpg",
+          size: "200 ml",
+          harga: "15.000",
+          link: "https://www.google.com",
+        },
+        {
+          nama: "Espreso",
+          foto: "images/produk/product_espresso.jpg",
+          size: "200 ml",
+          harga: "15.000",
+          link: "https://www.google.com",
+        },
+      ];
+
+      console.log(data_kopi);
+
+      // bisa menggunakan ini
+      // console.log(kopi["harga"])
+      // dan juga bisa menggunakan ini
+      // console.log(kopi.nama)
+
+      baris_produk.innerHTML = "";
+
+      data_kopi.forEach(function (kopi) {
+        baris_produk.innerHTML += `
+        <div class="col mb-4">
+              <div class="card">
+                <img src=${kopi.foto} alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">${kopi.nama}</h5>
+                  <div class="row hargasize my-4">
+                    <div class="col">120 Gram</div>
+                    <div class="col fw-bold text-primary"><i class="bi bi-cash"></i> 58.000</div>
+                  </div>
+                  <a href="#" class="btn btn-success w-100"><i class="bi bi-cart-plus"></i> Beli</a>
+                </div>
+              </div>
+            </div>
+          `;
+      });
+    </script>
   </body>
 </html>
