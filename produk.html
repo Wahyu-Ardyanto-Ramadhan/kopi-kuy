@@ -152,6 +152,7 @@
 
     <script src="js/produk.js"></script>
     <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+        baris_produk.innerHTML = ""
         var data_mentah = {
             "kopi":
             [
@@ -205,6 +206,16 @@
 
         console.log(data_mentah);
 
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+        var sumber2 = "data.json"
+
+        $.getJSON(sumber2).then(function (data) {
+            console.log(data)
+            data_mentah = data
+            updateSelect()
+        })
+
+
         function updateSelect(){
             select_kopi.innerHTML = `<option selected disabled>-</option>`
             Object.keys(data_mentah).forEach(function(opsi){
@@ -212,7 +223,7 @@
             })
         }
 
-        updateSelect()
+        // updateSelect()
 
         // bisa menggunakan ini
         // console.log(kopi["harga"])
@@ -224,20 +235,20 @@
             baris_produk.innerHTML = "";
         data_kopi.forEach(function (kopi) {
             baris_produk.innerHTML += `
-        <div class="col mb-4">
-              <div class="card">
-                <img src=${kopi.foto} alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">${kopi.nama}</h5>
-                  <div class="row hargasize my-4">
-                    <div class="col">120 Gram</div>
-                    <div class="col fw-bold text-primary"><i class="bi bi-cash"></i> 58.000</div>
-                  </div>
-                  <a href="#" class="btn btn-success w-100"><i class="bi bi-cart-plus"></i> Beli</a>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src=${kopi.foto} alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">${kopi.nama}</h5>
+                        <div class="row hargasize my-4">
+                        <div class="col">${kopi.size}</div>
+                        <div class="col fw-bold text-primary"><i class="bi bi-cash"></i>${kopi.harga}</div>
+                        </div>
+                        <a href="#" class="btn btn-success w-100"><i class="bi bi-cart-plus"></i> Beli</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          `;
+            `;
         });
         }
 
