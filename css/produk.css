@@ -32,3 +32,15 @@ section.produk {
 }
 
 /* Tambahan css produk tulis setelah kode ini */
+
+nav.navbar{
+    background-color: #403203;
+}
+a.nav-link{
+    color: white;
+}
+
+footer{
+    background-color: #403203;
+    text-align: center;
+}

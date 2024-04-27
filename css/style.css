@@ -135,7 +135,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #198754;
+   background-color: #403203;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -416,6 +416,7 @@ section.our-team>p {
 div.team {
    width: 25%;
    padding: 20px;
+   box-sizing: border-box;
 }
 
 div.team img {
@@ -531,12 +532,13 @@ div.kontak {
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: #403203;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
+   text-align: center;
    padding-right: 40px;
-   padding-left: 40px;
+   padding-left: 50px;
 }
 
 footer div.navigasi {
@@ -551,7 +553,61 @@ footer div.navigasi a {
 
 
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
+@media screen and (max-width: 768px) {
+   nav.navigasi{
+      width: 100%;
+      text-align: center;
+   }
+   div.produk{
+      width: 50%;
+   }
+   div.team {
+       width: 50%; /* Setiap elemen team akan memenuhi 100% lebar dari parent */
+   }
+   div.testimoni{
+      width: 100%;
+   }
+   div.kontak{
+      width: 50%;
+   }
+   a.chat{
+      margin-right: 5%;
+      text-align: center;
+   }
+   div.testimoni{
+      margin-top: 5%;
+   }
+}
 
+@media screen and (max-width: 500px) {
+   div.produk{
+      width: 100%;
+   }
+   div.team {
+       width: 100%; /* Setiap elemen team akan memenuhi 100% lebar dari parent */
+   }
+   div.testimoni{
+      width: 100%;
+   }
+   div.kontak{
+      width: 100%;
+   }
+   footer .navigasi{
+      width: 100%;
+      text-align: center;
+   }
+   a.chat{
+      margin-right: 0%;
+      text-align: center;
+   }
+}
 
+a:hover{
+   color: yellow;
+}
+
+/* div.navigasi{
+   padding-left: 100px;
+} */
 
 /* Kode CSS Selesai di sini */

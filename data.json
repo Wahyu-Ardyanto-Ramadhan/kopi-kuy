@@ -5,7 +5,7 @@
         "nama": "Cappuccino Arabica",
         "size": "500 Gram",
         "harga": "200.000",
-        "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        "link": "https://www.google.com/search?q=cappuccino&client=firefox-b-lm&sca_esv=c02b02dab6ce06a3&biw=1920&bih=963&tbm=shop&sxsrf=ACQVn0-IGpI0OxzN96JAsoDkbsZtc5EZpw%3A1714176300250&ei=LEEsZtvODrGK4-EPz-qLgAw&oq=capuchino&gs_lp=Egtwcm9kdWN0cy1jYyIJY2FwdWNoaW5vKgIIADIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkjZKFCgBVjVIHACeACQAQCYAdABoAH8BaoBBTkuMC4xuAEDyAEA-AEBmAIMoAKzBqgCBMICBxAjGCcY6gLCAgoQABiABBhDGIoFwgIFEAAYgASYAwWSBwYxMS4wLjGgB8kz&sclient=products-cc"
       },
       {
         "foto": "images/produk/product_espresso.jpg",
@@ -40,11 +40,18 @@
     ],
     "nonkopi": [
       {
-        "nama": "Nama Produk",
-        "size": "100 ml",
-        "harga": "10.000",
-        "link": "#",
-        "foto": "images/produk/product_kopi_susu.jpg"
+        "nama": "Milk Shake",
+        "size": "200 ml",
+        "harga": "9.000",
+        "link": "https://www.google.com/search?client=firefox-b-lm&sca_esv=6512afbb6cf57869&sxsrf=ACQVn0_r0hdL-BzyH9t1eaXegLUtAeG4vg:1714231804101&q=milkshake&tbm=shop&source=lnms&prmd=isvmnbtz&ved=1t:200715&ictx=111&biw=1920&bih=963&dpr=1",
+        "foto": "https://preppykitchen.com/wp-content/uploads/2021/04/Milkshake-Recipe-Card.jpg"
+      },
+      {
+        "nama": "Teh Tarik",
+        "size": "200 ml",
+        "harga": "11.000",
+        "link": "https://www.google.com/search?client=firefox-b-lm&sca_esv=6512afbb6cf57869&sxsrf=ACQVn088mQj9CFJVXTIqt99gpR0GnlkCxQ:1714232061701&q=teh+tarik&tbm=shop&source=lnms&prmd=imvnstzb&ved=1t:200715&ictx=111&biw=1920&bih=963&dpr=1 ",
+        "foto": "https://asset.kompas.com/crops/h1bqnfWROB6cj5NRQ1TwZ5HltE8=/100x67:900x599/750x500/data/photo/2023/11/27/6563db043c35f.jpeg"
       }
     ],
     "makanan": [
@@ -54,6 +61,13 @@
         "harga": "15.000",
         "link": "#",
         "foto": "https://cdn1-production-images-kly.akamaized.net/LDRjBxjUH3gyrzEAUFrCi_XisTs=/0x148:1920x1230/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3093328/original/069244600_1585909700-fried-2509089_1920.jpg"
+      },
+      {
+        "nama": "Sate Ayam",
+        "size": "1 porsi",
+        "harga": "20.000",
+        "link": "https://www.google.com/search?client=firefox-b-lm&sca_esv=6512afbb6cf57869&sxsrf=ACQVn09ElBT8BzskHev76LVNMWRhLDATgw:1714232120811&q=sate&tbm=shop&source=lnms&prmd=imsvnbtz&ved=1t:200715&ictx=111&biw=1920&bih=963&dpr=1",
+        "foto": "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/14053934/Mudah-Dibuat-di-Rumah-Ini-Resep-Sate-Ayam-Bumbu-Kacang-yang-Lezat-.jpg"
       }
     ]
   }
