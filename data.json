@@ -4,21 +4,21 @@
         "foto": "images/produk/product_capuchino.jpg",
         "nama": "Cappuccino Arabica",
         "size": "500 Gram",
-        "harga": "200.000",
+        "harga": "40.000",
         "link": "https://www.google.com/search?q=cappuccino&client=firefox-b-lm&sca_esv=c02b02dab6ce06a3&biw=1920&bih=963&tbm=shop&sxsrf=ACQVn0-IGpI0OxzN96JAsoDkbsZtc5EZpw%3A1714176300250&ei=LEEsZtvODrGK4-EPz-qLgAw&oq=capuchino&gs_lp=Egtwcm9kdWN0cy1jYyIJY2FwdWNoaW5vKgIIADIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkjZKFCgBVjVIHACeACQAQCYAdABoAH8BaoBBTkuMC4xuAEDyAEA-AEBmAIMoAKzBqgCBMICBxAjGCcY6gLCAgoQABiABBhDGIoFwgIFEAAYgASYAwWSBwYxMS4wLjGgB8kz&sclient=products-cc"
       },
       {
         "foto": "images/produk/product_espresso.jpg",
         "nama": "Pahit Arabica",
         "size": "100 Gram",
-        "harga": "100.000",
+        "harga": "60.000",
         "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
       },
       {
         "foto": "images/produk/product_latte.jpg",
         "nama": "Latte Arabica",
         "size": "150 Gram",
-        "harga": "150.000",
+        "harga": "30.000",
         "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
       }
     ],
@@ -34,8 +34,15 @@
         "foto": "images/produk/product_latte.jpg",
         "nama": "Latte Robusta",
         "size": "150 Gram",
-        "harga": "150.000",
+        "harga": "45.000",
         "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+      },
+      {
+        "foto": "https://www.gimmesomeoven.com/wp-content/uploads/2015/10/Irish-Coffee-Recipe-3.jpg",
+        "nama": "Irish COffee",
+        "size": "150 Gram",
+        "harga": "70.000",
+        "link": "https://www.google.com/search?client=firefox-b-lm&sca_esv=cf1e2760c1bb0539&sxsrf=ACQVn0-W7fVpsujwL1mONsH5EBQYD4_IfQ:1714268635644&q=irish+coffee&tbm=shop&source=lnms&prmd=isvmnbtz&ved=1t:200715&ictx=111&biw=1920&bih=963&dpr=1"
       }
     ],
     "nonkopi": [
